@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E63B9581EA5DA2500318C05 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E63B9571EA5DA2500318C05 /* NewViewController.swift */; };
 		5EDCAEED1EA51B9F0038ED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCAEEC1EA51B9F0038ED2A /* AppDelegate.swift */; };
 		5EDCAEEF1EA51B9F0038ED2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCAEEE1EA51B9F0038ED2A /* ViewController.swift */; };
 		5EDCAEF21EA51B9F0038ED2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAEF01EA51B9F0038ED2A /* Main.storyboard */; };
 		5EDCAEF41EA51B9F0038ED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAEF31EA51B9F0038ED2A /* Assets.xcassets */; };
 		5EDCAEF71EA51B9F0038ED2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAEF51EA51B9F0038ED2A /* LaunchScreen.storyboard */; };
-		5EDCAF051EA51BCC0038ED2A /* Dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAEFF1EA51BCC0038ED2A /* Dog1.jpg */; };
-		5EDCAF061EA51BCC0038ED2A /* Dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAF001EA51BCC0038ED2A /* Dog2.jpg */; };
-		5EDCAF071EA51BCC0038ED2A /* Dog4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAF011EA51BCC0038ED2A /* Dog4.jpg */; };
-		5EDCAF081EA51BCC0038ED2A /* Dog5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAF021EA51BCC0038ED2A /* Dog5.jpg */; };
-		5EDCAF091EA51BCC0038ED2A /* Dog6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAF031EA51BCC0038ED2A /* Dog6.jpg */; };
-		5EDCAF0A1EA51BCC0038ED2A /* Dog7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDCAF041EA51BCC0038ED2A /* Dog7.jpg */; };
 		5EDCAF0C1EA51EF40038ED2A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCAF0B1EA51EF40038ED2A /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E63B9571EA5DA2500318C05 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		5EDCAEE91EA51B9F0038ED2A /* UICollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDCAEEC1EA51B9F0038ED2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EDCAEEE1EA51B9F0038ED2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,12 +25,6 @@
 		5EDCAEF31EA51B9F0038ED2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EDCAEF61EA51B9F0038ED2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EDCAEF81EA51B9F0038ED2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EDCAEFF1EA51BCC0038ED2A /* Dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog1.jpg; sourceTree = "<group>"; };
-		5EDCAF001EA51BCC0038ED2A /* Dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog2.jpg; sourceTree = "<group>"; };
-		5EDCAF011EA51BCC0038ED2A /* Dog4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog4.jpg; sourceTree = "<group>"; };
-		5EDCAF021EA51BCC0038ED2A /* Dog5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog5.jpg; sourceTree = "<group>"; };
-		5EDCAF031EA51BCC0038ED2A /* Dog6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog6.jpg; sourceTree = "<group>"; };
-		5EDCAF041EA51BCC0038ED2A /* Dog7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog7.jpg; sourceTree = "<group>"; };
 		5EDCAF0B1EA51EF40038ED2A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,26 +61,13 @@
 				5EDCAEEC1EA51B9F0038ED2A /* AppDelegate.swift */,
 				5EDCAEEE1EA51B9F0038ED2A /* ViewController.swift */,
 				5EDCAF0B1EA51EF40038ED2A /* CollectionViewCell.swift */,
+				5E63B9571EA5DA2500318C05 /* NewViewController.swift */,
 				5EDCAEF01EA51B9F0038ED2A /* Main.storyboard */,
 				5EDCAEF31EA51B9F0038ED2A /* Assets.xcassets */,
 				5EDCAEF51EA51B9F0038ED2A /* LaunchScreen.storyboard */,
-				5EDCAEFE1EA51BCC0038ED2A /* Doggy_Images */,
 				5EDCAEF81EA51B9F0038ED2A /* Info.plist */,
 			);
 			path = UICollectionViewDemo;
-			sourceTree = "<group>";
-		};
-		5EDCAEFE1EA51BCC0038ED2A /* Doggy_Images */ = {
-			isa = PBXGroup;
-			children = (
-				5EDCAEFF1EA51BCC0038ED2A /* Dog1.jpg */,
-				5EDCAF001EA51BCC0038ED2A /* Dog2.jpg */,
-				5EDCAF011EA51BCC0038ED2A /* Dog4.jpg */,
-				5EDCAF021EA51BCC0038ED2A /* Dog5.jpg */,
-				5EDCAF031EA51BCC0038ED2A /* Dog6.jpg */,
-				5EDCAF041EA51BCC0038ED2A /* Dog7.jpg */,
-			);
-			path = Doggy_Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,13 +131,7 @@
 			files = (
 				5EDCAEF71EA51B9F0038ED2A /* LaunchScreen.storyboard in Resources */,
 				5EDCAEF41EA51B9F0038ED2A /* Assets.xcassets in Resources */,
-				5EDCAF0A1EA51BCC0038ED2A /* Dog7.jpg in Resources */,
-				5EDCAF061EA51BCC0038ED2A /* Dog2.jpg in Resources */,
-				5EDCAF051EA51BCC0038ED2A /* Dog1.jpg in Resources */,
-				5EDCAF081EA51BCC0038ED2A /* Dog5.jpg in Resources */,
 				5EDCAEF21EA51B9F0038ED2A /* Main.storyboard in Resources */,
-				5EDCAF071EA51BCC0038ED2A /* Dog4.jpg in Resources */,
-				5EDCAF091EA51BCC0038ED2A /* Dog6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +145,7 @@
 				5EDCAEEF1EA51B9F0038ED2A /* ViewController.swift in Sources */,
 				5EDCAEED1EA51B9F0038ED2A /* AppDelegate.swift in Sources */,
 				5EDCAF0C1EA51EF40038ED2A /* CollectionViewCell.swift in Sources */,
+				5E63B9581EA5DA2500318C05 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +307,7 @@
 				5EDCAEFD1EA51B9F0038ED2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
