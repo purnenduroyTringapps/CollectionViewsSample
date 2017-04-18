@@ -10,6 +10,8 @@ import UIKit
 
 class NewViewController: UIViewController {
 
+  @IBOutlet var imageView: UIImageView!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
   @IBOutlet var collectionView: UICollectionView!
   
-  let imageArray = [UIImage.init(named: "Dog1"), UIImage.init(named: "Dog2"), UIImage.init(named: "Dog4"), UIImage.init(named: "Dog5"), UIImage.init(named: "Dog6"), UIImage.init(named: "Dog7")]
+  let imageArray = [UIImage.init(named: "BD1"), UIImage.init(named: "BD2"), UIImage.init(named: "BD3"), UIImage.init(named: "BD4"), UIImage.init(named: "BD5"), UIImage.init(named: "BD6"), UIImage.init(named: "BD7"), UIImage.init(named: "BD8"), UIImage.init(named: "BD9"), UIImage.init(named: "BD10")]
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -24,6 +24,7 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     // Dispose of any resources that can be recreated.
   }
 
+  
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return imageArray.count
   }
@@ -31,7 +32,13 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
     cell.imageView.image = imageArray[indexPath.row]
+    
     return cell
   }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    return CGSize(width: collectionView.frame.size.width, height: 151.0)
+  }
+  
 }
 
